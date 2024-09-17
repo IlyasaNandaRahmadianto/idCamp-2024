@@ -1,0 +1,28 @@
+==Studi Kasus==
+Perintah - SQL
+
+CREATE
+
+CREATE TABLE daftarPenumpang_maskapai (
+    nama_depan CHAR(50),
+    nama_belakang CHAR(50),
+    umur INT,
+    riwayat_penyakit CHAR(100),
+    depature CHAR(50),
+    arrival CHAR(50)
+);
+
+INSERT
+
+INSERT INTO daftarPenumpang_maskapai (nama_depan, nama_belakang, umur, riwayat_penyakit, depature, arrival)
+VALUES
+('Sri', 'Rahma', 20, 'Vertigo', 'Jakarta', 'Bali'),
+('Albila', 'Subagja', 13, 'Tidak Ada', 'Jakarta', 'Surabaya'),
+('Banu', 'Wiranata', 24, 'Maag', 'Surabaya', 'Bali'),
+('Yudistira', 'Prawira', 10, 'Tidak Ada', 'Jakarta', 'Bali'),
+('Wiguna', 'Adi', 19, 'Bronkitis', 'Surabaya', 'Bali'),
+('Triwijaya', 'Galuh', 17, 'Tidak Ada', 'Jakarta', 'Surabaya');
+
+DROP
+
+DROP TABLE daftarPenumpang_maskapai;

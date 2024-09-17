@@ -1,0 +1,7 @@
+insert table
+
+INSERT INTO shinkansen_station (station_name, shinkansen_line, year, prefecture, distance_from_tokyo, company)
+VALUES
+('Toyohashi', 'Tokaido_Shinkansen', 1964, 'Aichi', 293.6, 'JR_Central'),
+('Mikawa-Anjo', 'Tokaido_Shinkansen', 1988, 'Aichi', 336.3, 'JR_Central');
+ 

@@ -1,0 +1,5 @@
+Select & From
+
+SELECT station_name
+FROM shinkansen_station;
+

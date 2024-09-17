@@ -1,0 +1,8 @@
+==Studi Kasus==
+Perintah - SQL
+
+INSERT
+
+INSERT INTO daftarPenumpang_maskapai (nama_depan, nama_belakang, umur, riwayat_penyakit, depature, arrival)
+VALUES
+('Fransisca', 'Prahastuti', 31, 'Tidak ada', 'Surabaya', 'Bali');
