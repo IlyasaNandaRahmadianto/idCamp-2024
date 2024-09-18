@@ -1,0 +1,12 @@
+ORDER BY
+
+SELECT *
+FROM shinkansen_station
+ORDER BY station_name ASC;
+
+Tantangan Implementasi ORDER BY
+Urutkan kolom prefecture dengan menggunakan ORDER BY DESC
+
+SELECT *
+FROM shinkansen_station
+ORDER BY prefecture DESC;

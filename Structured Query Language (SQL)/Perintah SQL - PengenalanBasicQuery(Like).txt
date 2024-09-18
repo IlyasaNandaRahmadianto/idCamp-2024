@@ -1,0 +1,11 @@
+LIKE
+
+SELECT *
+FROM shinkansen_station
+WHERE prefecture like 't%';
+
+Tantangan Implementasi LIKE
+
+SELECT *
+FROM shinkansen_station
+WHERE station_name like '_a%';

@@ -1,0 +1,9 @@
+Alias (AS)
+
+SELECT prefecture as wilayah 
+FROM shinkansen_station;
+
+Tantangan Implementasi ALIAS
+
+SELECT station_name as nama_stasiun, year as tahun, distance_from_tokyo as jarak_dari_tokyo 
+FROM shinkansen_station;

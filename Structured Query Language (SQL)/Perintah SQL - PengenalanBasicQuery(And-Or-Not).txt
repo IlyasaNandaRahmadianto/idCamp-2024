@@ -1,15 +1,42 @@
-Where
-
-Tantangan Implementasi Numerics
-Coba asah kemampuan Anda, carilah data numerics dengan nilai distance_from_tokyo = 293.6.
+WEHERE - AND 
 
 SELECT *
 FROM shinkansen_station
-WHERE distance_from_tokyo = 293.6;
+WHERE year = '1964'
+AND prefecture = 'Shizuoka';
 
-Tantangan Implementasi Non-numeric
-Coba asah kemampuan Anda dengan mencari data non-numeric dari kolom station_name Atami seperti berikut.
+
+WHERE - OR
 
 SELECT *
 FROM shinkansen_station
-WHERE station_name = 'Atami';
+WHERE prefecture = 'Tokyo'
+OR prefecture = 'Aichi';
+
+
+WHERE - NOT
+
+SELECT *
+FROM shinkansen_station
+WHERE NOT year = '1964';
+
+Tantangan Implementasi AND, OR, NOT
+Mari mengasah pemahaman Anda terkait materi AND, OR, dan NOT. Coba Anda lakukan latihan mandiri dengan menggunakan operasi AND, OR, dan NOT untuk menampilkan hasil-hasil seperti berikut.
+
+AND
+SELECT *
+FROM shinkansen_station
+WHERE year = '1988'
+AND prefecture = 'Shizuoka';
+
+OR
+SELECT *
+FROM shinkansen_station
+WHERE prefecture = 'Kanagawa'
+OR prefecture = 'Shizuoka';
+
+
+NOT
+SELECT *
+FROM shinkansen_station
+WHERE NOT year = '1988';

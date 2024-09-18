@@ -1,0 +1,12 @@
+LIMIT
+
+SELECT *
+FROM shinkansen_station
+LIMIT 5;
+
+Tantangan Implementasi LIMIT
+Batasi baris tersebut jika hanya ingin 7 baris yang ditampilkan.
+
+SELECT *
+FROM shinkansen_station
+LIMIT 7;

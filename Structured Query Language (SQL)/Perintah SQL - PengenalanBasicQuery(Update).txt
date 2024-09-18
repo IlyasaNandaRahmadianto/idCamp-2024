@@ -1,0 +1,13 @@
+UPDATE
+
+UPDATE shinkansen_station
+SET distance_from_tokyo = 29.05
+WHERE distance_from_tokyo = 0;
+
+Tantangan Implementasi UPDATE
+
+Perbarui nilai pada kolom station_name baris ke-5, yaitu “Atami” menjadi “Bandung”, lalu share hasilnya di Forum Diskusi, ya! See you there.
+
+UPDATE shinkansen_station
+SET station_name = 'Bandung'
+WHERE station_name = 'Atami';

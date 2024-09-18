@@ -1,0 +1,15 @@
+OFFSET
+
+SELECT *
+FROM shinkansen_station
+LIMIT 5
+OFFSET 1;
+
+
+Tantangan Implementasi OFFSET
+Gunakan pernyataan LIMIT dengan OFFSET sehingga menghasilkan tampilan seperti yang tertera pada gambar berikut.
+
+SELECT *
+FROM shinkansen_station
+LIMIT 7
+OFFSET 3;

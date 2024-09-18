@@ -1,0 +1,35 @@
+Latihan Basic Query
+Download Dataset 
+https://www.kaggle.com/datasets/rkiattisak/traveler-trip-data
+
+SELECT * 
+FROM traveler_trip (
+    trip_id INT NOT NULL,
+	tujuan CHAR NOT NULL,
+    durasi_liburan INT NOT NULL,
+    nama_traveler CHAR NOT NULL,
+    jenis_kelamin CHAR NOT NULL,
+    kewarganegaraan CHAR
+);
+
+
+Ternyata, sang pilot meminta Anda untuk memasukkan data-data tersebut ke basis data menggunakan DB Browser SQL agar lebih mudah diakses
+
+INSERT INTO traveler_trip (trip_id, tujuan, durasi_liburan, nama_traveler, jenis_kelamin, kewarganegaraan)
+VALUES
+(1, 'London, UK', 7, 'John Smith', 'Male', 'American'),
+(2, 'Phuket, Thailand', 5, 'Jane Doe', 'Female', 'Canadian'),
+(3, 'Bali, Indonesia', 7, 'David Lee', 'Male', 'Korean'),
+(4, 'New York, USA', 14, 'Sarah Johnson', 'Female', 'British'),
+(5, 'Tokyo, Japan', 7, 'Kim Nguyen', 'Female', 'Vietnamese'),
+(6, 'Paris, France', 5, 'Michael Brown', 'Male', 'American'),
+(7, 'Sydney, Australia', 10, 'Emily Davis', 'Female', 'Australian'),
+(8, 'Rio de Janeiro, Brazil', 7, 'Lucas Santos', 'Male', 'Brazilian'),
+(9, 'Amsterdam, Netherlands', 7, 'Laura Janssen', 'Female', 'Dutch'),
+(10, 'Dubai, United Arab Emirates', 7, 'Mohammed Ali', 'Male', 'Emirati');
+
+Ternyata, pilot meminta tolong kepada pramugari untuk menampilkan lima data terbawah. 
+
+SELECT * 
+FROM traveler_trip
+LIMIT 5;
